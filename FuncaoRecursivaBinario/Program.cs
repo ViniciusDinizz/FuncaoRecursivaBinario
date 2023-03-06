@@ -22,7 +22,7 @@ internal class Program
         //segunda array
         binariocop = converter(valor, 0,0);
 
-        //Função recursiva para converte valor decimal para binário
+        //Função recursiva para converter valor decimal em binário
         int[] converter(int valor, int cont, int resto)
         {
             if((valor == 1) && (resto%2 == 0) || (valor == 0))
