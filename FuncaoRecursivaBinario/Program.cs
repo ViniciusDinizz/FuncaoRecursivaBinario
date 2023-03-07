@@ -20,10 +20,10 @@ internal class Program
         }
 
         //segunda array
-        binariocop = converter(valor, 0, 0);
+        binariocop = Converter(valor, 0, 0);
 
         //Função recursiva para converter valor decimal em binário
-        int[] converter(int valor, int cont, int resto)
+        int[] Converter(int valor, int cont, int resto)
         {
             if ((valor == 1) && (resto % 2 == 0) || (valor == 0))
             {
@@ -35,7 +35,7 @@ internal class Program
             {
                 resto = valor % 2;
                 binario[cont] = resto;
-                return converter(valor / 2, cont + 1, resto);
+                return Converter(valor / 2, cont + 1, resto);
             }
 
         }
