@@ -1,3 +1,3 @@
-#RETORNA BINÁRIO
+#RETORNA BINÃRIO
 
--Retorna a sequência binária, que representa um número decimal inserido.
+-Retorna a sequÃªncia binÃ¡ria, que representa um nÃºmero decimal inserido.
